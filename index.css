@@ -1,0 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.cv-page {
+  padding: 50px 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-page__title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #cccc;
+}
+
+.cv-page__title-name {
+  font-size: 45px;
+}
+
+.cv-page__title-job {
+  font-size: 35px;
+}
+
+.cv-page__title-contact {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.cv-page__title-contact-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.cv-page__title-contact-item-image {
+  height: 15px;
+  margin-top: 5px;
+}
+
+.cv-page__information {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(133, 133, 133);
+}
+
+.cv-page__information-container {
+}
+
+.cv-page__information-flexbox {
+  width: 50%;
+}
+
+#info {
+    margin-left: 30px;
+}
+
+.cv-page__information-container-name {
+    font-size: 40px;
+    border-bottom: 3px solid #cccccc;
+}
+
+.cv-page__information-container-description {
+  font-size: 25px;
+  }
+
+.cv-page__information-container-description ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.cv-page__information-container-description li{
+  margin-bottom: 15px;
+}
+
+.cv-page__information-container-description li span{
+  font-style: italic;
+}
+
+.cv-page__information-container-description-item-image {
+  height: 20px;
+}
+
+.cv-page__title-photo img{
+  height: 300px;
+  border-radius: 100px;
+  margin-right: 150px;
+}
+
+.cv-page__title-about {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+}
